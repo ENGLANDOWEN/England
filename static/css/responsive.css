@@ -1,0 +1,150 @@
+/*Tablet Device*/
+@media (max-width: 991.98px) {
+    /*NAVIGATION BAR*/
+    .navigation {
+        background: var(--primary);
+        border-bottom: 1px solid #d5d5d5;
+        position: fixed;
+        top: 0;
+        right: 0;
+        left: 0;
+        z-index: 1000;
+    }
+    .logo {
+        margin-bottom: 10px;
+    }
+    /*BANNER*/
+    .banner {
+        padding: 150px 0;
+    }
+    .banner-single p {
+        padding-right: 0;
+    }
+    .banner-single img {
+        margin-top: 50px;
+    }
+    /*FEATURE*/
+    .feature-single p {
+        padding-right: 0;
+    }
+    .feature-single2 {
+        margin-top: 50px;
+    }
+}
+/*Mobile Device*/
+@media (max-width: 767.98px) {
+    /*NAVIGATION BAR*/
+    header {
+        background: url(../image/mobilebanner.png) no-repeat left/cover;
+    }
+    /*SECTION ALIGNMENT*/
+    .feature,
+    .about,
+    .about2,
+    .contact,
+    .review {
+        text-align: center;
+    }
+    /*ABOUT*/
+    .about-single {
+        margin-top: 50px;
+    }
+    .about-single i {
+        margin-right: 0;
+        margin-bottom: 16px;
+    }
+    /*TESTIMONIAL PAGE*/
+    .tcarousel-indicator {
+        justify-content: center;
+    }
+}
+/*Extra small devices*/
+@media (max-width: 575.98px) {
+    /*GLOBAL*/
+    .ctitle {
+        font-size: 28px;
+    }
+    /*SECTION PADDING*/
+    .company,
+    .feature,
+    .about,
+    .service,
+    .about2,
+    .contact,
+    .pkg,
+    .review,
+    .faq {
+        padding: 60px 0;
+    }
+    /*SECTION WIDTH*/
+    .feature-single,
+    .feature-single2,
+    .about-single,
+    .service-single,
+    .about-item,
+    .pricingTable {
+        max-width: 450px;
+        margin: 50px auto 0;
+    }
+    /*BANNER*/
+    .banner-single {
+        max-width: 400px;
+        margin: auto;
+    }
+    .banner-single button {
+        font-size: 15px;
+    }
+    .banner-single h1 {
+        font-size: 27px;
+    }
+    /*PACKAGE PAGE*/
+    .pricingTable-header h2 {
+        font-size: 24px;
+    }
+    .price-value span {
+        font-size: 40px;
+    }
+    /*FAQ PAGE*/
+    .faq-single button {
+        border-radius: 5px;
+    }
+}
+/*Small devices*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .ctitle {
+        font-size: 30px;
+    }
+    .banner-single h1 {
+        font-size: 36px;
+    }
+    .about2-single {
+        margin-bottom: 50px;
+    }
+}
+/*Medium devices*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .ctitle {
+        font-size: 30px;
+    }
+    .banner-single h1 {
+        font-size: 31px;
+    }
+    .feature-single .cheading {
+        font-size: 17px;
+    }
+    .about2-single {
+        margin-bottom: 50px;
+    }
+}
+/*Large devices*/
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    .banner-single h1 {
+        font-size: 40px;
+    }
+    .box {
+        padding: 20px;
+    }
+    .feature-box .cheading {
+        font-size: 17px;
+    }
+}
